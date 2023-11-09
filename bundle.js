@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         document.getElementById("year").value;
       var name = document.getElementById("name").value;
       var email = document.getElementById("email").value;
-      //var addinfo = document.getElementById("addinfo").value;
+      var addinfo = document.getElementById("addinfo").value;
       var plan = document.getElementById("plan").value;
       var quantity = document.getElementById("quantity").value;
       var price = "$" + " " + document.getElementById("price").value;
@@ -27,6 +27,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         issueDate,
         name,
         email,
+        addinfo,
         plan,
         quantity,
         price
@@ -37,6 +38,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         issueDate,
         name,
         email,
+        addinfo,
         plan,
         quantity,
         price
