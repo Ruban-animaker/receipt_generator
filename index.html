@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Receipt Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <p class="navbar-item" style="color: white;">
+                Receipt Generator
+            </p>
+      </nav>
+    <section class="section">
+      <div class="container">
+        <script src="bundle.js"></script> 
+        <div class="box" style="box-shadow: none">
+          <div class="columns ">
+            <div class="column is-two-fifths">
+              <form>
+                <div class="field">
+                  <div class="label">Invoice Number</div>
+                  <input
+                    class="input"
+                    type="text"
+                    value=""
+                    required
+                    id="invoice_number"
+                  />
+                </div>
+                <div class="field">
+                  <div class="label">Issue Date</div>
+                  <div class="columns">
+                    <div class="column">
+                      <div class="label">Date</div>
+                      <div class="select">
+                        <select name="date" id="date">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                          <option>9</option>
+                          <option>10</option>
+                          <option>11</option>
+                          <option>12</option>
+                          <option>13</option>
+                          <option>14</option>
+                          <option>15</option>
+                          <option>16</option>
+                          <option>17</option>
+                          <option>18</option>
+                          <option>19</option>
+                          <option>20</option>
+                          <option>21</option>
+                          <option>22</option>
+                          <option>23</option>
+                          <option>24</option>
+                          <option>25</option>
+                          <option>26</option>
+                          <option>27</option>
+                          <option>28</option>
+                          <option>29</option>
+                          <option>30</option>
+                          <option>31</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="label">Month</div>
+                      <div class="select">
+                        <select class="select" id="month" name="month"> 
+                          <option>January</option>
+                          <option>February</option>
+                          <option>March</option>
+                          <option>April</option>
+                          <option>May</option>
+                          <option>June</option>
+                          <option>July</option>
+                          <option>August</option>
+                          <option>September</option>
+                          <option>October</option>
+                          <option>November</option>
+                          <option>December</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="label">Year</div>
+                      <div class="select">
+                        <select name="year" id="year">
+                          <option>2021</option>
+                          <option>2022</option>
+                          <option>2023</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="label">Name of the User</div>
+                  <input
+                    class="input"
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="field">
+                  <div class="label">User Email Address</div>
+                  <input
+                    class="input"
+                    type="text"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="field">
+                  <div class="label">Additonal Information (Optional)</div>
+                  <input
+                    class="input"
+                    type="text"
+                    id="addinfo"
+                    name="addinfo"
+                  />
+                </div>
+                <div class="field">
+                  <div class="label">Plan</div>
+                  <div class="select">
+                    <select name="plan" id="plan" required>
+                      <option>Steve AI Basic plan (Monthly)</option>
+                      <option>Steve AI Basic plan (Yearly)</option>
+                      <option>Steve AI Starter plan (Monthly)</option>
+                      <option>Steve AI Starter plan (Yearly)</option>
+                      <option>Steve AI Pro plan (Monthly)</option>
+                      <option>Steve AI Pro plan (Yearly)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="label">Quantity</div>
+                  <input
+                    class="input"
+                    type="text"
+                    id="quantity"
+                    name="quantity"
+                    required
+                  />
+                </div>
+                <div class="field">
+                  <div class="label">Total Price</div>
+                  <input
+                    class="input"
+                    type="text"
+                    id="price"
+                    name="price"
+                    required
+                  />
+                </div>
+                <button class="button is-primary" type="submit" id="generate">Generate PDF</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script> 
+ 
+    </script> 
+  </body>
+</html>
