@@ -4247,8 +4247,6 @@ function receiptgenerator(
     })
     .moveUp(1);
 
-  doc.image("logo.png", 0, 15, { width: 300 });
-
   doc
     .font("Body")
     .fontSize(12)
