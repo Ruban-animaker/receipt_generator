@@ -26,7 +26,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
         issueDate,
         name,
         email,
-        addinfo,
         plan,
         quantity,
         price
