@@ -94,10 +94,16 @@
                       <div class="label">Year</div>
                       <div class="select">
                         <select name="year" id="year">
-                          <option>2021</option>
-                          <option>2022</option>
-                          <option>2023</option>
+                          <option id="y2"></option>
+                          <option id="y1"></option>
+                          <option id="y"></option>
                         </select>
+                        <script>
+                          var year = new Date().getFullYear();
+                          document.getElementById('y2').innerHTML = year;
+                          document.getElementById('y1').innerHTML = year - 1;
+                          document.getElementById('y').innerHTML = year -2;
+                        </script>
                       </div>
                     </div>
                   </div>

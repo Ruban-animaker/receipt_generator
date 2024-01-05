@@ -2,7 +2,6 @@
 const PDFDocument = require("pdfkit");
 const blobStream = require("blob-stream");
 
-const button = document.getElementById("generate");
 window.addEventListener("DOMContentLoaded", (event) => {
   const button = document.getElementById("generate");
   if (button) {
