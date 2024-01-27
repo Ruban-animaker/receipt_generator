@@ -228,7 +228,7 @@ function receiptgenerator(
 
   doc.moveDown(18);
   doc.fillColor("black");
-  doc.text("Copyright © 2023 Animaker Inc. All rights reserved.", {
+  doc.text("Copyright © 2024 Animaker Inc. All rights reserved.", {
     align: "center",
   });
 
